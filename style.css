@@ -19,7 +19,7 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 12px 20px;
+  padding: 5px 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,15 +150,15 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    height: 58vh;
+    height: 70vh;
   }
 
-  .hero-slide {
+    .hero-slide {
     background-image: url('./images/PHONE_VIEW.png');
-    /* ✅ FIX */
-    background-size: contain; /* ✅ key fix */
+    background-size: cover;          /* ✅ fill full area */
+    background-position: center top; /* ✅ keep building visible */
     background-repeat: no-repeat;
-  
+    /* min-height: 100vh;               ✅ full mobile screen */
   }
 }
 
