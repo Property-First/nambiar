@@ -28,8 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send mail
     if (mail($to, $subject, $message, $headers)) {
         echo "<script>
-                alert('Enquiry submitted successfully!');
-                window.location.href='index.html';
+                
+                window.location.href='thank_you.html';
               </script>";
     } else {
         echo "Something went wrong. Please try again.";
