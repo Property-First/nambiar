@@ -150,11 +150,11 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    height: 22vh;
+    height: 58vh;
   }
 
   .hero-slide {
-    background-image: url('./images/VILLA_COMMUNITY.png');
+    background-image: url('./images/PHONE_VIEW.png');
     /* ✅ FIX */
     background-size: contain; /* ✅ key fix */
     background-repeat: no-repeat;
